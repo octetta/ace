@@ -1,0 +1,25 @@
+a = 2;
+if (a >= b + 3)
+    {
+        x = 1;
+    }
+b = 1 + b;
+if (!p || !q)
+    {
+        r = 1;
+    }
+if (p != q)
+    {
+        r = 2;
+    }
+x = *p->angle;
+result = atan2(x, 1);
+for (i = 0; i < 10; i++)
+    {
+        A[i]++;
+    }
+x = p | q;
+y = p & q;
+z = bool(p, q, 2);
+v = 0;
+w = 0;
