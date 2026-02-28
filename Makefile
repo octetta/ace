@@ -84,6 +84,14 @@ regression: all $(GOLDEN)
 		&& echo "PASS — output matches golden" \
 		|| (echo "FAIL — see diff above"; exit 1)
 
+
+# ------------------------------------------------------------------
+# Shell test suite (run_tests.sh)
+# ------------------------------------------------------------------
+
+.PHONY: shell-test
+shell-test: all
+	bash run_tests.sh
 # ------------------------------------------------------------------
 # Clean
 # ------------------------------------------------------------------
